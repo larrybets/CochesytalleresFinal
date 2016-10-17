@@ -27,11 +27,11 @@ public class Persona {
         this.dni = dni;
     }
 
-    public String getNumero_seguridad_ocial() {
+    public String getNumero_seguridad_social() {
         return numero_seguridad_social;
     }
 
-    public void setNumero_seguridad_ocial(String numero_seguridad_social) {
+    public void setNumero_seguridad_social(String numero_seguridad_social) {
         this.numero_seguridad_social = numero_seguridad_social;
     }
 
@@ -66,4 +66,5 @@ public class Persona {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
 }
